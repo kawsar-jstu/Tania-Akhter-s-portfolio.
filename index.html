@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tania Akhter's personal student portfolio">
+  <title>Home | Tania Akhter</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= HEADER / NAVIGATION ================= -->
+  <header class="header">
+    <nav class="nav wrap">
+      <!-- Brand / Logo -->
+      <a class="brand" href="index.html">
+        <span class="brandmark">TA</span>
+        <span>TANIA AKHTER<small>PERSONAL PORTFOLIO</small></span>
+      </a>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button id="menuToggle" class="menu" aria-label="Toggle navigation">☰</button>
+
+      <!-- Navigation Links -->
+      <div class="links" id="navLinks">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <!-- Dark Mode Theme Toggle Button -->
+      <button id="themeToggle" class="theme" aria-label="Toggle dark mode">☼</button>
+    </nav>
+  </header>
+
+  <!-- ================= MAIN CONTENT ================= -->
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        
+        <!-- Left Hero Details -->
+        <div>
+          <p class="eyebrow">STUDENT PORTFOLIO</p>
+          <h1>Hello, I’m<br><span>Tania Akhter.</span></h1>
+          <h3>Student / Lifelong Learner</h3>
+          <p class="lead">
+            A motivated student with a curious mind and a passion for learning, personal growth, and new opportunities. Explore my background, interests, skills, and aspirations as I continue building my future.
+          </p>
+
+          <div class="actions">
+            <a class="btn" href="education.html">Explore Education ↗</a>
+            <a class="text-link" href="about.html">More About Me ↓</a>
+          </div>
+
+          <div class="stats">
+            <div>
+              <small>MY JOURNEY</small>
+              <b>Student</b>
+            </div>
+            <div>
+              <small>MY MINDSET</small>
+              <b>Always Learning</b>
+            </div>
+            <div>
+              <small>MY FOCUS</small>
+              <b>Future Growth</b>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual Card with Profile Picture -->
+        <div class="art">
+          <div class="profile">
+            <small>PERSONAL PROFILE / 01</small>
+            
+            <!-- PROFILE PICTURE SECTION -->
+            <!-- Instructions: Replace 'profile.jpg' with your image file name or URL -->
+            <div class="profile-avatar-wrapper">
+              <img src="tania.jpeg" alt="Tania Akhter" class="profile-avatar" onerror="this.style.display='none'; document.getElementById('monogramFallback').style.display='flex';">
+              
+              <!-- Monogram Fallback (Displays automatically if image is not uploaded yet) -->
+              <div id="monogramFallback" class="monogram" style="display: none;">T<span>A</span></div>
+            </div>
+
+            <h2>Tania Akhter</h2>
+            <p>Student · Curious Mind · Lifelong Learner</p>
+            <hr>
+
+            <div class="mini">
+              <span>Approach</span>
+              <b>Learn by Doing</b>
+            </div>
+            <div class="mini">
+              <span>Looking Ahead</span>
+              <b>New Opportunities</b>
+            </div>
+          </div>
+
+          <!-- Floating Badges -->
+          <div class="float f1">
+            ✦ <span><b>Curious Mind</b><small>Always learning</small></span>
+          </div>
+          <div class="float f2">
+            ↗ <span><b>Growing Forward</b><small>One step at a time</small></span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Scroll Prompt Link -->
+      <a class="scroll" href="#intro">↓ &nbsp; SCROLL TO DISCOVER</a>
+    </section>
+
+    <!-- INTRODUCTION SECTION -->
+    <section class="section wrap" id="intro">
+      <p class="eyebrow">01 / INTRODUCTION</p>
+      
+      <div class="split">
+        <h2>Learning with purpose.<br><em>Growing with every step.</em></h2>
+        <div>
+          <p class="lead">Every milestone is a starting point for something new.</p>
+          <p class="muted">
+            I’m Tania Akhter. This portfolio brings together my background, interests, skills, and goals in one place. I believe that curiosity, consistency, and a willingness to learn can open the door to meaningful opportunities.
+          </p>
+          <a class="inline" href="about.html">Get to know me ↗</a>
+        </div>
+      </div>
+
+      <!-- Cards Grid -->
+      <div class="cards home-cards">
+        <article>
+          <b>01</b>
+          <h2>About Me</h2>
+          <p>Get to know my story, values, and the things that motivate me.</p>
+          <a class="inline" href="about.html">Read more ↗</a>
+        </article>
+
+        <article>
+          <b>02</b>
+          <h2>Education</h2>
+          <p>Explore my educational background and learning journey.</p>
+          <a class="inline" href="education.html">View education ↗</a>
+        </article>
+
+        <article>
+          <b>03</b>
+          <h2>Skills &amp; Interests</h2>
+          <p>Discover the skills I am developing and the topics I enjoy.</p>
+          <a class="inline" href="skills.html">Explore skills ↗</a>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="wrap foot">
+      <a class="brand" href="index.html">
+        <span class="brandmark">TA</span>
+        <span>TANIA AKHTER<small>PERSONAL PORTFOLIO</small></span>
+      </a>
+      <p>Designed with curiosity. Built for the future.</p>
+      <a href="index.html">BACK TO TOP ↑</a>
+    </div>
+    <div class="wrap copyright">
+      © <span id="year"></span> Tania Akhter. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+
+</body>
+</html>

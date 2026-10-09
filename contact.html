@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tania Akhter's personal student portfolio">
+  <title>Contact | Tania Akhter</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= HEADER / NAVIGATION ================= -->
+  <header class="header">
+    <nav class="nav wrap">
+      <!-- Brand / Logo -->
+      <a class="brand" href="index.html">
+        <span class="brandmark">TA</span>
+        <span>TANIA AKHTER<small>PERSONAL PORTFOLIO</small></span>
+      </a>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button id="menuToggle" class="menu" aria-label="Toggle navigation">☰</button>
+
+      <!-- Navigation Links -->
+      <div class="links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+
+      <!-- Dark Mode Theme Toggle Button -->
+      <button id="themeToggle" class="theme" aria-label="Toggle dark mode">☼</button>
+    </nav>
+  </header>
+
+  <!-- ================= MAIN CONTENT ================= -->
+  <main>
+
+    <!-- PAGE HERO SECTION -->
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="eyebrow">LET’S CONNECT</p>
+        <h1>Contact <span>Me.</span></h1>
+        <p class="lead">Thanks for visiting my portfolio. Feel free to reach out for inquiries, collaborations, or networking.</p>
+      </div>
+    </section>
+
+    <!-- MAIN CONTACT SECTION -->
+    <section class="section wrap">
+      <div class="split">
+        <div>
+          <h2>Every new connection<br><em>opens a possibility.</em></h2>
+          <p class="muted">
+            Whether you have a question, want to collaborate on a project, or simply want to connect, feel free to send a message or reach out through social media.
+          </p>
+
+          <!-- Contact Information Grid -->
+          <div class="contact-details" style="margin-top: 2rem; display: grid; gap: 1.5rem;">
+            
+            <div class="contact-item">
+              <small>EMAIL</small>
+              <!-- EDIT HERE: Replace with your actual email -->
+              <p><b><a href="mailto:tania.akhter@example.com">tania.akhter@example.com</a></b></p>
+            </div>
+
+            <div class="contact-item">
+              <small>LOCATION</small>
+              <!-- EDIT HERE: Replace with your location -->
+              <p><b>Bangladesh</b></p>
+            </div>
+
+            <div class="contact-item">
+              <small>LINKEDIN</small>
+              <!-- EDIT HERE: Replace with your LinkedIn profile link -->
+              <p><b><a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">linkedin.com/in/tania-akhter ↗</a></b></p>
+            </div>
+
+            <div class="contact-item">
+              <small>GITHUB</small>
+              <!-- EDIT HERE: Replace with your GitHub profile link -->
+              <p><b><a href="https://github.com/yourprofile" target="_blank" rel="noopener">github.com/tania-akhter ↗</a></b></p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Contact Form Section -->
+        <div>
+          <!-- EDIT HERE: To receive actual emails via webform, replace 'yourformid' with a Formspree ID or mail handler -->
+          <form class="contact-form" action="https://formspree.io/f/yourformid" method="POST" style="display: flex; flex-direction: column; gap: 1rem;">
+            <div>
+              <label for="name" style="font-size: 0.85rem; font-weight: 600; display: block; margin-bottom: 0.25rem;">YOUR NAME</label>
+              <input type="text" id="name" name="name" placeholder="Tania Akhter" required style="width: 100%; padding: 0.75rem; border: 1px solid rgba(0,0,0,0.15); border-radius: 6px;">
+            </div>
+
+            <div>
+              <label for="email" style="font-size: 0.85rem; font-weight: 600; display: block; margin-bottom: 0.25rem;">YOUR EMAIL</label>
+              <input type="email" id="email" name="email" placeholder="example@domain.com" required style="width: 100%; padding: 0.75rem; border: 1px solid rgba(0,0,0,0.15); border-radius: 6px;">
+            </div>
+
+            <div>
+              <label for="subject" style="font-size: 0.85rem; font-weight: 600; display: block; margin-bottom: 0.25rem;">SUBJECT</label>
+              <input type="text" id="subject" name="subject" placeholder="Project Inquiry / Networking" required style="width: 100%; padding: 0.75rem; border: 1px solid rgba(0,0,0,0.15); border-radius: 6px;">
+            </div>
+
+            <div>
+              <label for="message" style="font-size: 0.85rem; font-weight: 600; display: block; margin-bottom: 0.25rem;">YOUR MESSAGE</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required style="width: 100%; padding: 0.75rem; border: 1px solid rgba(0,0,0,0.15); border-radius: 6px;"></textarea>
+            </div>
+
+            <button type="submit" class="btn" style="cursor: pointer; align-self: flex-start;">Send Message ↗</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="wrap foot">
+      <a class="brand" href="index.html">
+        <span class="brandmark">TA</span>
+        <span>TANIA AKHTER<small>PERSONAL PORTFOLIO</small></span>
+      </a>
+      <p>Designed with curiosity. Built for the future.</p>
+      <a href="index.html">BACK TO TOP ↑</a>
+    </div>
+    <div class="wrap copyright">
+      © <span id="year"></span> Tania Akhter. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+
+</body>
+</html>
